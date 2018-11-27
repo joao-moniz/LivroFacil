@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1082245984552",
+    "firebase_url": "https://livro-facil.firebaseio.com",
+    "project_id": "livro-facil",
+    "storage_bucket": "livro-facil.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082245984552:android:1a3ecb60f32051fa",
+        "android_client_info": {
+          "package_name": "com.example.joao__us9xpst.livro_facil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082245984552-qhivdei9952t57s2hm9cbb9i6ofs67bm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.joao__us9xpst.livro_facil",
+            "certificate_hash": "b60883e5f2ad68e354caefc46af5a22616bed615"
+          }
+        },
+        {
+          "client_id": "1082245984552-0dtn2cptfc6iahtfvpmht20snrsjksbg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCZOqgW3JlhHpb2V8yZsSR9dZucy06jiY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082245984552-0dtn2cptfc6iahtfvpmht20snrsjksbg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

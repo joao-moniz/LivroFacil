@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:fresco="http://schemas.android.com/apk/res-auto"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/im_livro"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            fresco:actualImageScaleType="centerInside"
+            fresco:progressBarImage="@drawable/default_gif"
+            fresco:progressBarImageScaleType="centerInside"
+            fresco:progressBarAutoRotateInterval="1000"
+            app:srcCompat="@drawable/livro"
+            android:layout_marginTop="8dp" fresco:layout_constraintTop_toTopOf="parent"
+            fresco:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            fresco:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            fresco:layout_constraintHorizontal_bias="0.0" android:layout_marginBottom="8dp"
+            fresco:layout_constraintBottom_toBottomOf="parent" fresco:layout_constraintVertical_bias="0.0"/>
+    <TextView
+            android:text="EU VOU TE ENSINAR A SER RICO"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_titulo" fresco:layout_constraintStart_toEndOf="@+id/im_livro"
+            android:layout_marginStart="8dp" fresco:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginTop="8dp" fresco:layout_constraintTop_toTopOf="parent"
+            fresco:layout_constraintHorizontal_bias="0.5" android:typeface="serif"
+            android:textColor="@color/colorPrimaryDark" android:textStyle="bold|italic"
+            android:textAlignment="center"/>
+
+    <TextView
+            android:text="Ricos não correm atrás de dinheiro. Correm atrás de liberdade! As pessoas de classe média vivem com os mesmos princípios: gastam tudo o que ganham durante o mês para manterem um padrão de vida mais elevado do que podem ter. Como sobra pouco ou nenhum dinheiro para adquirir o “conforto”, utilizam os financiamentos dos bancos e com isso pagam juros altíssimos. Têm a falsa impressão de que estão crescendo porque possuem cada vez mais bens de consumo. Será que realmente estão progredindo?"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:id="@+id/tv_descricao" fresco:layout_constraintStart_toEndOf="@+id/im_livro"
+            android:layout_marginStart="8dp" android:layout_marginTop="8dp"
+            fresco:layout_constraintTop_toBottomOf="@+id/tv_titulo" fresco:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" fresco:layout_constraintHorizontal_bias="0.0"
+            android:minLines="1"
+            android:textSize="14sp" android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:fontFamily="sans-serif"
+            android:typeface="normal" android:textAlignment="viewStart"
+            fresco:layout_constraintBottom_toBottomOf="@+id/im_livro" android:layout_marginBottom="8dp"
+            android:maxLines="4" fresco:layout_constraintVertical_bias="0.22000003"
+            android:fallbackLineSpacing="false"/>
+
+</android.support.constraint.ConstraintLayout>
